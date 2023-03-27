@@ -1,0 +1,47 @@
+Padrões de Projeto criacionais:
+Nome
+	referência do padrão
+Problema
+	 descreve em que situação aplicar o padrão
+Solução
+	os elementos que compõem o padrão de projeto, seus relacionamentos, suas responsabilidades e colaborações
+Consequencias 
+	(resultados, análises das vantagens e desvantagens)
+
+	Factory Method
+		AbstractFactory
+			Descrição:
+				Permite a criação de famílias de objetos relacionados ou dependentes por meio de uma única interface.
+			Problema:
+				Necessidade de criar objetos da mesma família mas com variantes.
+			Solução:
+				Construir uma fábrica abstrata e uma fábrica concreta para cada variante
+			Consequencias:
+				Fornece uma interface para a criação de objetos de cada classe das famílias de produtos				
+		Builder
+			Descrição:
+				Construção de um objeto complexo
+			Problema:
+				Para construção de um objeto, é necessário atribuir diversos atributos na sua criação. Necessidade de criar diferentes representações do mesmo produto
+			Solução:
+				Criar um construtor Builder fora da própria classe, com os processos da criação do mesmo, podendo ter métodos diferentes para cara objeto.
+			Consequencias:
+				Aplicado quando á construção de objetos com estapas similares
+		Prototype
+			Descrição:
+				Permite criar uma cópia de um objeto em uma instancia diferente.
+			Problema:
+				Necessidade de fazer dois (ou mais) do mesmo objeto com variações em sua composição. Necessidade de para criar um novo objeto, instancia e informar todos os atributos
+			Solução:
+				No objeto desejado clonar, implementar o método Clone que retorne ele mesmo
+			Consequencias:
+				Em mãos em instancias diferentes, o mesmo objeto.
+		Singleton
+			Descrição:
+				Manter um ponto global de acesso ao seu objeto
+			Problema:
+				Garantir que uma classe tenha apenas uma única instância
+			Solução:
+				Criar um método statico que age como construtor, que chama o construtor privado para criar e retornar o objeto. Todas as chamadas seguintes retornam o mesmo objeto
+			Consequencias:
+				Desabilita todos os outros meios de criar objetos de uma classe, usar quando precisar de um controle mais estrito sobre as variáveis globais.
