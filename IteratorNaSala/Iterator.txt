@@ -1,0 +1,9 @@
+Nome: Iterator
+	Permite a você percorrer elementos de uma coleção sem expor as representações dele (lista, pilha, árvore, etc.)
+
+	Problema:
+		Um dia você pode apenas precisar percorrer em profundidade em uma árvore. No dia seguinte você pode precisar percorrer na amplitude. E na semana seguinte, você pode precisar algo diferente, como um acesso aleatório aos elementos da árvore.
+	Solução:
+		Implementar o Interator faz com que você percorra uma lista de diferente maneiras
+	Consequencias:
+		Diferentes caminhos para se chegar ao fim, sendo eles longos, curtos ou por um caminho específico
