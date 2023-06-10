@@ -1,0 +1,8 @@
+Nome: TemplateMethod
+	Problema:
+		Garantir que aqueles passos sempre sejam executados
+		deixando pendente alguns passos, para serem implementados nas subclasses (metodos abstratos que serão implementados na subclasse)
+		
+		(Director do builder)
+	Solução:
+	Consequencias:

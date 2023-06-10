@@ -1,0 +1,11 @@
+Padrão de comunicação entre objetos
+Padrão de classes e padrão de objteos
+template method = roteiro (etapa 1, etapa 2, etapa 3)
+	pode aproveitar aquele algoritmo comum para als classes (erança)
+
+Nome: Observador
+	Problema:
+		sugeito temperatura > observador termometro
+	
+	Solução:
+	Consequencias:
